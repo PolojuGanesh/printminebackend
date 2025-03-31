@@ -1,0 +1,29 @@
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "username": "rahul",
+    "password": "rahul@123"
+}
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "rahul",
+    "password": "rahul@123"
+}
+###
+
+GET http://localhost:3000/keychains
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhaHVsIiwiaWF0IjoxNzQzNDM3OTg1fQ.__NRsYw6pLa4H5DMHk6I8zw3RYcqseiG1Lqu5kZK5nQ
+###
+
+GET http://localhost:3000/magneticbadge
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhaHVsIiwiaWF0IjoxNzQzNDM3OTg1fQ.__NRsYw6pLa4H5DMHk6I8zw3RYcqseiG1Lqu5kZK5nQ
+###
+
+GET http://localhost:3000/mobilestand
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhaHVsIiwiaWF0IjoxNzQzNDM3OTg1fQ.__NRsYw6pLa4H5DMHk6I8zw3RYcqseiG1Lqu5kZK5nQ
+###
